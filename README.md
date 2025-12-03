@@ -1,3 +1,3 @@
 # odin-recipes
 
-A project to practice basic hml and git skills.
+A project to practice basic html and git skills.
