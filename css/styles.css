@@ -7,4 +7,9 @@
 * {
   background-color: hsla(30, 83%, 86%, 1);
   color: hsla(252, 74%, 9%, 1);
+  box-sizing: border-box;
+}
+
+div {
+  text-align: center;
 }
