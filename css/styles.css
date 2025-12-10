@@ -1,0 +1,10 @@
+/* CSS HSL
+--soft-apricot: hsla(30, 83%, 86%, 1);
+--tangerine-dream: hsla(17, 95%, 74%, 1);
+--blush-rose: hsla(347, 62%, 62%, 1);
+--grape-soda: hsla(307, 50%, 40%, 1);
+--midnight-violet: hsla(252, 74%, 9%, 1); */
+* {
+  background-color: hsla(30, 83%, 86%, 1);
+  color: hsla(252, 74%, 9%, 1);
+}
