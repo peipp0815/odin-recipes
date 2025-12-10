@@ -8,8 +8,23 @@
   background-color: hsla(30, 83%, 86%, 1);
   color: hsla(252, 74%, 9%, 1);
   box-sizing: border-box;
+  border: 2px solid hsla(17, 95%, 74%, 1); /* To see what's going on */
 }
 
-div {
+/*index css*/
+.title {
   text-align: center;
+}
+
+.index-recipes {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.source-link {
+  text-align: center;
+}
+
+.source-link a {
+  color: hsla(307, 50%, 40%, 1);
 }
