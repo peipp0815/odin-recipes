@@ -4,16 +4,16 @@
 --blush-rose: hsla(347, 62%, 62%, 1);
 --grape-soda: hsla(307, 50%, 40%, 1);
 --midnight-violet: hsla(252, 74%, 9%, 1); */
-* {
-  background-color: hsla(30, 83%, 86%, 1);
+html {
+  background-color: hsla(17, 95%, 74%, 1);
   color: hsla(252, 74%, 9%, 1);
   box-sizing: border-box;
-  border: 2px solid hsla(17, 95%, 74%, 1); /* To see what's going on */
+  font-family: "Times New Roman", Times, serif;
 }
 
-/*index css*/
 .title {
   text-align: center;
+  background-color: hsla(347, 62%, 62%, 1);
 }
 
 .index-recipes {
@@ -25,6 +25,23 @@
   text-align: center;
 }
 
-.source-link a {
+a {
   color: hsla(307, 50%, 40%, 1);
+}
+
+.index-recipes a {
+  color: hsla(252, 74%, 9%, 1);
+}
+
+img {
+  width: 100%;
+  border: 2px solid hsla(347, 62%, 62%, 1);
+}
+
+.recipe-card {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: hsla(30, 83%, 86%, 1);
+  padding: 1px 16px 16px;
+  border: 2px solid hsla(347, 62%, 62%, 1);
 }
